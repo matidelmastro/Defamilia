@@ -426,7 +426,7 @@ nav {
   grid-area: cabeza;
 }
 .cuerpoescuela .fondoteensenamos {
-  background: #cb997e;
+  background: #9e2a2b;
   grid-area: section1;
   display: flex;
   flex-direction: column;
@@ -437,13 +437,16 @@ nav {
 }
 .cuerpoescuela .fondoteensenamos h2 {
   font-size: 25px;
+  color: wheat;
 }
 .cuerpoescuela .fondoteensenamos p {
   font-size: 14px;
+  color: wheat;
 }
 .cuerpoescuela .fondoteensenamos form {
   border: double wheat 5px;
   padding: 5px;
+  color: wheat;
 }
 .cuerpoescuela .fondoteensenamos form label {
   padding: 5px;
@@ -461,7 +464,7 @@ nav {
 }
 .cuerpoescuela .infocurso {
   grid-area: section2;
-  background-color: wheat;
+  background-color: #eddcd2;
   padding: 25px;
 }
 .cuerpoescuela .infocurso .infocurso__texto1 {
@@ -554,7 +557,7 @@ nav {
   border: groove gray 10px;
   border-radius: 40px;
   padding: 20px;
-  background: grey;
+  background: #9e2a2b;
 }
 .cuerpoescuela .infocurso .infocurso__texto6 h1 a {
   color: wheat;

@@ -16,7 +16,7 @@
     grid-area: cabeza;
     }
     .fondoteensenamos {
-        background: #cb997e;
+        background: #9e2a2b;
         grid-area: section1;
         display: flex;
         flex-direction: column;
@@ -26,13 +26,16 @@
         padding: 25px;
         h2 {
         font-size: $tamañotitulo;
+        color: wheat;
         }
         p {
             font-size: $tamañoparrafo;
+            color: wheat;
         }
         form {
             border: double wheat 5px;
             padding: 5px;
+            color: wheat;
             label {
                 padding: 5px;
             }
@@ -51,7 +54,7 @@
     }
     .infocurso {
        grid-area: section2;
-       background-color: wheat;
+       background-color: #eddcd2;
        padding: 25px;
     .infocurso__texto1 {
         padding: 20px;
@@ -145,7 +148,7 @@
         border: groove gray 10px;
         border-radius: 40px;
         padding: 20px;
-        background: grey;
+        background: #9e2a2b;
         a {
             color:wheat;
         }
