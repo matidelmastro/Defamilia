@@ -1,0 +1,86 @@
+.cuerpomenu {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 30%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "section section aside"
+    "sectionn2 sectionn2 sectionn2"
+    "footer footer footer";
+
+.cabeza2 {
+    background-image: url(../imagenes/menu.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;   
+    grid-area: header;
+    }
+    .menu {
+        padding: 25px;
+        grid-area: section;
+        background: wheat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        h2 {
+            font-size: $tamañotitulo;
+        }
+        li {
+            font-size: $tamañoparrafo;
+        }
+    }
+    @keyframes rotar{
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(180deg);
+        }
+    }
+    
+    .whatsapp  {
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        animation-name: rotar;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+    }
+    aside {
+        grid-area: aside;
+        background: url(../imagenes/publicidad.jpg);
+        background-size: cover;
+        background-position: top;
+        grid-area: aside;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        font-weight: bolder;
+    }
+    .carrusel {
+        text-align: center;
+        grid-area: sectionn2;
+        background: #a5a58d;
+        padding: 35px;
+
+        .carrusel__h2 {
+            display: inline-block;
+            padding: 15px;
+            border: groove wheat 5px;
+            border-radius: 10%;
+            margin-bottom: 30px;
+            color:wheat;
+        }
+        .carousel-inner {
+            border: groove 10px wheat;
+            border-radius: 10%;
+        }
+    }
+    footer {
+        grid-area: footer;
+    }
+}

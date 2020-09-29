@@ -1,0 +1,71 @@
+.cabeza5 {
+    background-image: url(../imagenes/reserva.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+  .producto {
+         padding: 20px;
+         background: #b7b7a4;
+      h2 {
+          text-align: center;
+          font-size: $tamañotitulo;
+          padding: 10px;
+          color: wheat;
+          font-weight: bold;
+      }
+  }
+  .productos {
+        background: wheat;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+   .productos__imagenes {
+       text-align: center;
+       margin: 10px;
+       p {
+           font-size: $tamañoparrafo;
+           font-weight: bold;
+       }
+       img {
+        border: double 5px grey;
+        border-radius: 10%;
+       }
+       h3 {
+           background: wheat;
+           display: inline-block;
+           text-align: center;
+           border: solid 5px grey;
+           border-radius: 10%;
+           font-size: 20px;
+           padding: 5px;
+           a:hover {
+               color:grey;
+           }
+       }
+   }
+  }
+
+  
+@keyframes rotar{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+.whatsapp  {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    animation-name: rotar;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+

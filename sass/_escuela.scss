@@ -1,0 +1,175 @@
+.cuerpoescuela {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 30%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "cabeza cabeza cabeza"
+    "section1 section1 aside"
+    "section2 section2 section2"
+    "footer footer footer";
+.cabeza4 {
+    background-image: url(../imagenes/escuela.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 100vh;   
+    grid-area: cabeza;
+    }
+    .fondoteensenamos {
+        background: #cb997e;
+        grid-area: section1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        text-align: center;
+        padding: 25px;
+        h2 {
+        font-size: $tamañotitulo;
+        }
+        p {
+            font-size: $tamañoparrafo;
+        }
+        form {
+            border: double wheat 5px;
+            padding: 5px;
+            label {
+                padding: 5px;
+            }
+        }
+    }
+    aside {
+        background: url(../imagenes/publicidad.jpg);
+        background-size: cover;
+        background-position: top;
+        grid-area: aside;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        font-weight: bolder;
+    }
+    .infocurso {
+       grid-area: section2;
+       background-color: wheat;
+       padding: 25px;
+    .infocurso__texto1 {
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        h2 {
+            font-size: $tamañotitulo;
+        }
+     
+    }
+    .infocurso__texto2 {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        h3 {
+            border-left: grey dotted;
+            padding-left: 10px;
+            font-size: $tamañotitulo;
+        }
+        p {
+            padding-right: 10px;
+            font-size: $tamañoparrafo;
+        }
+    }
+    .infocurso__texto3 {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        h3 {
+            border-right: grey dotted;
+            padding-right: 10px;
+            font-size: $tamañotitulo;
+        }
+        p {
+            padding-left: 10px;
+            font-size: $tamañoparrafo;
+        }
+    }
+    .infocurso__texto4 {
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        h2 {
+            font-size: $tamañotitulo;
+        }
+        
+    }
+    .infocurso__texto5 {
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; 
+        td {
+        border: solid grey 5px;
+        padding: 10px;
+        color: black;
+        font-style: oblique;
+        text-align: center;
+        font-size: $tamañoparrafo;
+        }
+    }
+    @keyframes inscribirse {
+        from {
+            transform: scale(0.5);
+        }
+    
+        to {
+            transform: scale(1);
+        }
+    }
+    .infocurso__texto6 {
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        animation-name: inscribirse;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        h1 {
+        font-size: $tamañoparrafo;
+        border: groove gray 10px;
+        border-radius: 40px;
+        padding: 20px;
+        background: grey;
+        a {
+            color:wheat;
+        }
+    }
+    }
+}
+@keyframes rotar{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+.whatsapp  {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    animation-name: rotar;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+footer {
+    grid-area: footer;
+}
+}
