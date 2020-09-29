@@ -31,12 +31,6 @@ nav {
   animation-duration: 5s;
   animation-name: aparecer;
 }
-nav li {
-  border: solid 2px;
-  background: wheat;
-  border-radius: 30%;
-  padding: 5px;
-}
 
 @keyframes aparecer {
   0% {
@@ -594,7 +588,7 @@ nav li {
 
 .producto {
   padding: 20px;
-  background: #b7b7a4;
+  background: #9e2a2b;
 }
 .producto h2 {
   text-align: center;

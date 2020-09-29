@@ -26,12 +26,6 @@ nav {
   align-items: center;
   animation-duration: 5s;
   animation-name: aparecer;
-  li {
-    border: solid 2px;
-    background: wheat;
-    border-radius: 30%;
-    padding: 5px;
-  }
   }
   @keyframes aparecer {
     0% {
