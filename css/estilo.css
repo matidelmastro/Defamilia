@@ -798,3 +798,8 @@ footer .foter3 .foter3__redes img {
     opacity: 2;
   }
 }
+@media (max-width: 768px) {
+  .cuerpoindex .sobrenosotros {
+    flex-direction: column;
+  }
+}
