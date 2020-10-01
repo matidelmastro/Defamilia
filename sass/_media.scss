@@ -1,4 +1,10 @@
 @media (max-width: 768px) {
+   nav {
+    a {
+      font-size: 12px;
+      padding-top: 5px;
+    }
+   }
     .modal {
       display: none;
     }
@@ -8,11 +14,8 @@
     .whatsapp {
       display: none;
     }
-    nav {
-      a {
-        font-size: $tamañoparrafo;
-        padding-top: 5px;
-      }
+    .cuerpoindex .cabeza1 {
+    background-position: right;
     }
     .cuerpoindex .sobrenosotros {
       flex-direction: column;
@@ -23,5 +26,86 @@
         width: 350px;
         height: 100;
       }
+    }
+    footer .foter {
+      flex-direction: column;
+      width: 85%;
+      margin: auto;
+    }
+
+    .cabeza3 {
+      background-position: top;
+      
+    .trabajaconnosotros form label {
+      font-size: 12px;
+    }
+    }
+    .nuestrapropuesta .nuestrapropuesta__mision {
+      flex-direction: column;
+      text-align: center;
+      h2 {
+      border-right: none;
+      border-bottom: double wheat 5px;
+    }
+    }
+    .nuestrapropuesta .nuestrapropuesta__ofrecer {
+      flex-direction: column;
+      text-align: center;
+      h2 {
+        border-bottom: double wheat 5px;
+      }
+      li {
+        border-right: none;
+      }
+    }
+    .nuestrapropuesta .nuestrapropuesta__imagenesempleados {
+      flex-direction: column;
+      align-content: center;
+      h2 {
+        border-bottom: double wheat 5px;
+    }
+    }
+    .cuerpoescuela .cabeza4 {
+      background-position: right;
+    } 
+    .cuerpoescuela .fondoteensenamos p {
+      text-align: justify;
+    }
+    .cuerpoescuela .infocurso {
+      .infocurso__texto1{
+        text-align: center;
+      }
+      .infocurso__texto2 {
+        flex-direction: column;
+        text-align: center;
+        h3 {
+        border-left: none;
+        border-bottom:  grey dotted;
+      }
+      }
+      .infocurso__texto3 {
+        text-align: center;
+        flex-direction: column;
+        h3 {
+        border-right: none;
+        border-bottom: grey dotted;
+      }
+      }
+      .infocurso__texto4 {
+        flex-direction: column;
+        text-align: center;
+      }
+      .infocurso__texto5 {
+        flex-direction: column;
+        td {
+          padding: 0;
+          font-size: 12px;
+        }
+
+      }
+      .infocurso__texto6 {
+        flex-direction: column;
+      }
+
     }
   }

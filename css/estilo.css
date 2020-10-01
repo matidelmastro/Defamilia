@@ -419,7 +419,7 @@ nav {
   height: 100vh;
   grid-template-columns: 1fr 1fr 30%;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "cabeza cabeza cabeza" "section1 section1 aside" "section2 section2 section2" "footer footer footer";
+  grid-template-areas: "cabeza cabeza cabeza" "section1 section1 section1" "section2 section2 section2" "footer footer footer";
 }
 .cuerpoescuela .cabeza4 {
   background-image: url(../imagenes/escuela.jpg);
@@ -453,17 +453,6 @@ nav {
 }
 .cuerpoescuela .fondoteensenamos form label {
   padding: 5px;
-}
-.cuerpoescuela aside {
-  background: url(../imagenes/publicidad.jpg);
-  background-size: cover;
-  background-position: top;
-  grid-area: aside;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  text-align: center;
-  font-weight: bolder;
 }
 .cuerpoescuela .infocurso {
   grid-area: section2;
@@ -799,6 +788,11 @@ footer .foter3 .foter3__redes img {
   }
 }
 @media (max-width: 768px) {
+  nav a {
+    font-size: 12px;
+    padding-top: 5px;
+  }
+
   .modal {
     display: none;
   }
@@ -811,9 +805,8 @@ footer .foter3 .foter3__redes img {
     display: none;
   }
 
-  nav a {
-    font-size: 14px;
-    padding-top: 5px;
+  .cuerpoindex .cabeza1 {
+    background-position: right;
   }
 
   .cuerpoindex .sobrenosotros {
@@ -826,5 +819,88 @@ footer .foter3 .foter3__redes img {
   .cuerpoindex .video iframe {
     width: 350px;
     height: 100;
+  }
+
+  footer .foter {
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+  }
+
+  .cabeza3 {
+    background-position: top;
+  }
+  .cabeza3 .trabajaconnosotros form label {
+    font-size: 12px;
+  }
+
+  .nuestrapropuesta .nuestrapropuesta__mision {
+    flex-direction: column;
+    text-align: center;
+  }
+  .nuestrapropuesta .nuestrapropuesta__mision h2 {
+    border-right: none;
+    border-bottom: double wheat 5px;
+  }
+
+  .nuestrapropuesta .nuestrapropuesta__ofrecer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .nuestrapropuesta .nuestrapropuesta__ofrecer h2 {
+    border-bottom: double wheat 5px;
+  }
+  .nuestrapropuesta .nuestrapropuesta__ofrecer li {
+    border-right: none;
+  }
+
+  .nuestrapropuesta .nuestrapropuesta__imagenesempleados {
+    flex-direction: column;
+    align-content: center;
+  }
+  .nuestrapropuesta .nuestrapropuesta__imagenesempleados h2 {
+    border-bottom: double wheat 5px;
+  }
+
+  .cuerpoescuela .cabeza4 {
+    background-position: right;
+  }
+
+  .cuerpoescuela .fondoteensenamos p {
+    text-align: justify;
+  }
+
+  .cuerpoescuela .infocurso .infocurso__texto1 {
+    text-align: center;
+  }
+  .cuerpoescuela .infocurso .infocurso__texto2 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .cuerpoescuela .infocurso .infocurso__texto2 h3 {
+    border-left: none;
+    border-bottom: grey dotted;
+  }
+  .cuerpoescuela .infocurso .infocurso__texto3 {
+    text-align: center;
+    flex-direction: column;
+  }
+  .cuerpoescuela .infocurso .infocurso__texto3 h3 {
+    border-right: none;
+    border-bottom: grey dotted;
+  }
+  .cuerpoescuela .infocurso .infocurso__texto4 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .cuerpoescuela .infocurso .infocurso__texto5 {
+    flex-direction: column;
+  }
+  .cuerpoescuela .infocurso .infocurso__texto5 td {
+    padding: 0;
+    font-size: 12px;
+  }
+  .cuerpoescuela .infocurso .infocurso__texto6 {
+    flex-direction: column;
   }
 }
