@@ -799,8 +799,21 @@ footer .foter3 .foter3__redes img {
   }
 }
 @media (max-width: 768px) {
-  .model img {
+  .modal {
     display: none;
+  }
+
+  #cerrar + label {
+    display: none;
+  }
+
+  .whatsapp {
+    display: none;
+  }
+
+  nav a {
+    font-size: 14px;
+    padding-top: 5px;
   }
 
   .cuerpoindex .sobrenosotros {

@@ -1,7 +1,18 @@
 @media (max-width: 768px) {
-    .contenido img {
+    .modal {
       display: none;
     }
+    #cerrar + label {
+      display: none;
+    }
+    .whatsapp {
+      display: none;
+    }
+    nav {
+      a {
+        font-size: $tamañoparrafo;
+        padding-top: 5px;
+      }
     }
     .cuerpoindex .sobrenosotros {
       flex-direction: column;
