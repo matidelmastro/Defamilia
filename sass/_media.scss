@@ -1,5 +1,16 @@
 @media (max-width: 768px) {
+    .contenido img {
+      display: none;
+    }
+    }
     .cuerpoindex .sobrenosotros {
       flex-direction: column;
+    }
+    .cuerpoindex .video {
+      flex-direction: column;
+      iframe {
+        width: 350px;
+        height: 100;
+      }
     }
   }

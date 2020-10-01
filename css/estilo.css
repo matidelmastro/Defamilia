@@ -799,7 +799,19 @@ footer .foter3 .foter3__redes img {
   }
 }
 @media (max-width: 768px) {
+  .model img {
+    display: none;
+  }
+
   .cuerpoindex .sobrenosotros {
     flex-direction: column;
+  }
+
+  .cuerpoindex .video {
+    flex-direction: column;
+  }
+  .cuerpoindex .video iframe {
+    width: 350px;
+    height: 100;
   }
 }
