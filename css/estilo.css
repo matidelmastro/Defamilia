@@ -235,7 +235,7 @@ nav {
   height: 100vh;
   grid-template-columns: 1fr 1fr 30%;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "header header header" "section section aside" "sectionn2 sectionn2 sectionn2" "footer footer footer";
+  grid-template-areas: "header header header" "section section section" "sectionn2 sectionn2 sectionn2" "footer footer footer";
 }
 .cuerpomenu .cabeza2 {
   -ms-grid-row: 1;
@@ -250,7 +250,7 @@ nav {
 .cuerpomenu .menu {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
+  -ms-grid-column-span: 3;
   padding: 25px;
   grid-area: section;
   background: wheat;
@@ -282,21 +282,10 @@ nav {
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
 }
-.cuerpomenu aside {
-  -ms-grid-row: 2;
-  -ms-grid-column: 3;
-  grid-area: aside;
-  background: url(../imagenes/publicidad.jpg);
-  background-size: cover;
-  background-position: top;
-  grid-area: aside;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  text-align: center;
-  font-weight: bolder;
-}
 .cuerpomenu .carrusel {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
   text-align: center;
   grid-area: sectionn2;
   background: #a5a58d;
@@ -315,6 +304,9 @@ nav {
   border-radius: 10%;
 }
 .cuerpomenu footer {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
   grid-area: footer;
 }
 
@@ -422,6 +414,9 @@ nav {
   grid-template-areas: "cabeza cabeza cabeza" "section1 section1 section1" "section2 section2 section2" "footer footer footer";
 }
 .cuerpoescuela .cabeza4 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
   background-image: url(../imagenes/escuela.jpg);
   background-size: cover;
   background-position: bottom;
@@ -429,6 +424,9 @@ nav {
   grid-area: cabeza;
 }
 .cuerpoescuela .fondoteensenamos {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
   background: #9e2a2b;
   grid-area: section1;
   display: flex;
@@ -455,6 +453,9 @@ nav {
   padding: 5px;
 }
 .cuerpoescuela .infocurso {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
   grid-area: section2;
   background-color: #eddcd2;
   padding: 25px;
@@ -571,6 +572,9 @@ nav {
   animation-iteration-count: infinite;
 }
 .cuerpoescuela footer {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
   grid-area: footer;
 }
 
@@ -901,6 +905,10 @@ footer .foter3 .foter3__redes img {
     font-size: 12px;
   }
   .cuerpoescuela .infocurso .infocurso__texto6 {
+    flex-direction: column;
+  }
+
+  .productos {
     flex-direction: column;
   }
 }

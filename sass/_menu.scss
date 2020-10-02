@@ -5,7 +5,7 @@
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
     "header header header"
-    "section section aside"
+    "section section section"
     "sectionn2 sectionn2 sectionn2"
     "footer footer footer";
 
@@ -48,18 +48,6 @@
         animation-name: rotar;
         animation-duration: 1.5s;
         animation-iteration-count: infinite;
-    }
-    aside {
-        grid-area: aside;
-        background: url(../imagenes/publicidad.jpg);
-        background-size: cover;
-        background-position: top;
-        grid-area: aside;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        text-align: center;
-        font-weight: bolder;
     }
     .carrusel {
         text-align: center;
