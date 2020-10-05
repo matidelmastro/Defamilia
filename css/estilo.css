@@ -827,8 +827,13 @@ footer .foter3 .foter3__redes img {
 
   footer .foter {
     flex-direction: column;
-    width: 85%;
-    margin: auto;
+    align-items: center;
+    align-content: center;
+  }
+
+  footer .foter3 .foter3__redes img {
+    margin-right: 40px;
+    margin-left: 40px;
   }
 
   .cabeza3 {
@@ -910,5 +915,22 @@ footer .foter3 .foter3__redes img {
 
   .productos {
     flex-direction: column;
+  }
+}
+@media (min-width: 768px) and (max-width: 1367px) {
+  .cuerpoindex .protocolo .protocolo__2 {
+    flex-wrap: none;
+    justify-content: space-between;
+  }
+
+  footer .foter {
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+
+  footer .foter3 .foter3__redes img {
+    margin-right: 100px;
+    margin-left: 100px;
   }
 }
