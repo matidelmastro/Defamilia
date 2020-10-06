@@ -82,15 +82,15 @@ grid-template-areas:
         h3 {
             padding: 5px;
             font-size: $tamañotitulo;
-            span {
-            font-weight: bold;
-            font-style: italic;
-            }
         p {
             text-align: left;
             font-size: $tamañoparrafo;
         }
     }
+    #defamilia {
+        font-weight: bolder;
+        color: black;
+        }
 }
 }
 @keyframes rotar{
@@ -160,7 +160,7 @@ h2 {
     padding: 15px;
     .protocolo__2--destacado {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center; 
     padding: 5px;   
     img {

@@ -39,8 +39,9 @@
     .cabeza3 {
       background-position: top;
       
-    .trabajaconnosotros form label {
-      font-size: 12px;
+    .trabajaconnosotros form{
+     align-content: center;
+      
     }
     }
     .nuestrapropuesta .nuestrapropuesta__mision {
@@ -114,7 +115,7 @@
       flex-direction: column;
     }
   }
-  @media (min-width: 768px) and (max-width: 1023px){
+  @media (min-width: 769px) and (max-width: 1024px){
     .cuerpoindex .protocolo .protocolo__2 {
     flex-wrap: none;
     justify-content: space-between;
@@ -130,12 +131,7 @@
     }
     nav {
       a {
-        font-size: $tamañotitulos;
+        font-size: $tamañotitulo;
       }
-    }
-  }
-  @media (min-width: 1024px) and (max-width: 1366px) {
-    .cuerpoindex .cabeza1 {
-      background-image: url(../imagenes/alcohol.png);
     }
   }

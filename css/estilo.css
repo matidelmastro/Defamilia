@@ -129,13 +129,13 @@ nav {
   padding: 5px;
   font-size: 25px;
 }
-.cuerpoindex .video .video__texto--2 h3 span {
-  font-weight: bold;
-  font-style: italic;
-}
 .cuerpoindex .video .video__texto--2 h3 p {
   text-align: left;
   font-size: 14px;
+}
+.cuerpoindex .video .video__texto--2 #defamilia {
+  font-weight: bolder;
+  color: black;
 }
 @keyframes rotar {
   from {
@@ -210,7 +210,7 @@ nav {
 }
 .cuerpoindex .protocolo .protocolo__2 .protocolo__2--destacado {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   padding: 5px;
 }
@@ -320,6 +320,11 @@ nav {
 .trabajaconnosotros {
   background-color: wheat;
   padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
 }
 .trabajaconnosotros h2 {
   text-align: center;
@@ -331,6 +336,8 @@ nav {
   padding: 20px;
 }
 .trabajaconnosotros form {
+  width: 80%;
+  margin: auto;
   padding: 20px;
   align-content: center;
   border: ridge 10px grey;
@@ -345,15 +352,16 @@ nav {
   padding: 25px;
 }
 .nuestrapropuesta .nuestrapropuesta__mision {
+  width: 80%;
+  margin: auto;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-content: center;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
 }
 .nuestrapropuesta .nuestrapropuesta__mision h2 {
-  border-right: double wheat 5px;
-  padding-right: 10px;
+  border-bottom: double wheat 5px;
+  padding-bottom: 10px;
   font-size: 25px;
 }
 .nuestrapropuesta .nuestrapropuesta__mision p {
@@ -362,21 +370,20 @@ nav {
 }
 .nuestrapropuesta .nuestrapropuesta__ofrecer {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-content: center;
+  flex-direction: column;
   align-items: center;
   padding: 20px;
 }
 .nuestrapropuesta .nuestrapropuesta__ofrecer h2 {
   font-size: 25px;
+  border-bottom: double wheat 10px;
+  padding-bottom: 10px;
 }
 .nuestrapropuesta .nuestrapropuesta__ofrecer li {
   font-size: 14px;
   display: block;
-  padding: 5px;
   text-align: center;
-  border-right: double wheat 10px;
+  padding: 5px;
 }
 .nuestrapropuesta .nuestrapropuesta__imagenesempleados {
   display: flex;
@@ -387,6 +394,8 @@ nav {
 }
 .nuestrapropuesta .nuestrapropuesta__imagenesempleados h2 {
   font-size: 25px;
+  border-right: double wheat 10px;
+  padding-right: 10px;
 }
 
 @keyframes rotar {
@@ -445,6 +454,8 @@ nav {
   color: wheat;
 }
 .cuerpoescuela .fondoteensenamos form {
+  width: 80%;
+  margin: auto;
   border: double wheat 5px;
   padding: 5px;
   color: wheat;
@@ -471,36 +482,38 @@ nav {
   font-size: 25px;
 }
 .cuerpoescuela .infocurso .infocurso__texto2 {
-  margin-bottom: 20px;
+  padding-bottom: 30px;
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
   justify-content: center;
   align-items: center;
 }
 .cuerpoescuela .infocurso .infocurso__texto2 h3 {
-  border-left: grey dotted;
-  padding-left: 10px;
-  font-size: 25px;
-}
-.cuerpoescuela .infocurso .infocurso__texto2 p {
-  padding-right: 10px;
-  font-size: 14px;
-}
-.cuerpoescuela .infocurso .infocurso__texto3 {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.cuerpoescuela .infocurso .infocurso__texto3 h3 {
   border-right: grey dotted;
   padding-right: 10px;
   font-size: 25px;
 }
-.cuerpoescuela .infocurso .infocurso__texto3 p {
+.cuerpoescuela .infocurso .infocurso__texto2 p {
   padding-left: 10px;
   font-size: 14px;
+}
+.cuerpoescuela .infocurso .infocurso__texto3 {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+.cuerpoescuela .infocurso .infocurso__texto3 h3 {
+  font-size: 25px;
+}
+.cuerpoescuela .infocurso .infocurso__texto3 p {
+  border-left: grey dotted;
+  font-size: 14px;
+  padding-left: 15px;
 }
 .cuerpoescuela .infocurso .infocurso__texto4 {
   padding: 20px;
@@ -617,6 +630,9 @@ nav {
 .productos .productos__imagenes img {
   border: double 5px grey;
   border-radius: 10%;
+}
+.productos .productos__imagenes #imagen {
+  border: none;
 }
 .productos .productos__imagenes h3 {
   background: wheat;
@@ -839,8 +855,8 @@ footer .foter3 .foter3__redes img {
   .cabeza3 {
     background-position: top;
   }
-  .cabeza3 .trabajaconnosotros form label {
-    font-size: 12px;
+  .cabeza3 .trabajaconnosotros form {
+    align-content: center;
   }
 
   .nuestrapropuesta .nuestrapropuesta__mision {
@@ -917,7 +933,7 @@ footer .foter3 .foter3__redes img {
     flex-direction: column;
   }
 }
-@media (min-width: 768px) and (max-width: 1367px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .cuerpoindex .protocolo .protocolo__2 {
     flex-wrap: none;
     justify-content: space-between;
@@ -932,5 +948,9 @@ footer .foter3 .foter3__redes img {
   footer .foter3 .foter3__redes img {
     margin-right: 100px;
     margin-left: 100px;
+  }
+
+  nav a {
+    font-size: 25px;
   }
 }

@@ -33,6 +33,8 @@
             color: wheat;
         }
         form {
+            width: 80%;
+            margin: auto;
             border: double wheat 5px;
             padding: 5px;
             color: wheat;
@@ -57,36 +59,40 @@
      
     }
     .infocurso__texto2 {
-        margin-bottom: 20px;
+        padding-bottom: 30px;
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
         justify-content: center;
         align-items: center;
         h3 {
             border-right: grey dotted;
-            padding-left: 10px;
+            padding-right: 10px;
             font-size: $tamañotitulo;
         }
         p {
-            padding-right: 10px;
+            padding-left: 10px;
             font-size: $tamañoparrafo;
         }
+    
     }
     .infocurso__texto3 {
-        margin-top: 20px;
+        padding-top: 20px;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
+        width: 80%;
+        margin: auto;
         h3 {
-            border-right: grey dotted;
-            padding-right: 10px;
             font-size: $tamañotitulo;
         }
         p {
-            padding-left: 10px;
+            border-left: grey dotted;
             font-size: $tamañoparrafo;
+            padding-left: 15px;
         }
+        
     }
     .infocurso__texto4 {
         padding: 20px;
