@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
    nav {
     a {
-      font-size: 12px;
+      font-size: 10px;
       padding-top: 5px;
     }
    }
@@ -23,7 +23,7 @@
     .cuerpoindex .video {
       flex-direction: column;
       iframe {
-        width: 350px;
+        width: 300px;
         height: 100;
       }
     }
@@ -33,16 +33,20 @@
       align-content: center;
     }
     footer .foter3 .foter3__redes img {
-      margin-right: 40px;
-      margin-left: 40px;
+      margin-right: 30px;
+      margin-left: 30px;
       }
     .cabeza3 {
       background-position: top;
-      
-    .trabajaconnosotros form{
-     align-content: center;
-      
     }
+    .trabajaconnosotros form {
+      text-align: left;
+      width: 100%;
+      margin: auto;
+      border: none;
+      input {
+       overflow: inherit;
+      }
     }
     .nuestrapropuesta .nuestrapropuesta__mision {
       flex-direction: column;
@@ -72,6 +76,10 @@
     .cuerpoescuela .cabeza4 {
       background-position: right;
     } 
+    .cuerpoescuela .fondoteensenamos form {
+      width: 100%;
+      margin: auto;
+    }
     .cuerpoescuela .fondoteensenamos p {
       text-align: justify;
     }
@@ -83,7 +91,7 @@
         flex-direction: column;
         text-align: center;
         h3 {
-        border-left: none;
+        border-right: none;
         border-bottom:  grey dotted;
       }
       }
@@ -94,6 +102,9 @@
         border-right: none;
         border-bottom: grey dotted;
       }
+      p {
+        border-left: none;
+      }
       }
       .infocurso__texto4 {
         flex-direction: column;
@@ -103,7 +114,7 @@
         flex-direction: column;
         td {
           padding: 0;
-          font-size: 12px;
+          font-size: 11px;
         }
 
       }
