@@ -7,13 +7,13 @@
 
 a:hover {
   text-decoration: none;
-  color: wheat;
+  color: black;
 }
 
 a {
   text-decoration: none;
-  color: black;
-  font-weight: 700;
+  color: wheat;
+  font-size: 18px;
   animation-name: link;
 }
 
@@ -24,10 +24,16 @@ li {
 }
 
 nav {
+  position: fixed;
+  width: 100%;
+  background-image: url(../imagenes/granitos.jpg);
+  background-position: bottom;
+  background-size: cover;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
+  align-content: center;
   animation-duration: 5s;
   animation-name: aparecer;
 }
@@ -75,7 +81,7 @@ nav {
   padding-left: 10px;
 }
 .cuerpoindex .sobrenosotros h2 {
-  font-size: 25px;
+  font-size: 22px;
   padding-right: 10px;
 }
 .cuerpoindex .imagenlocal {
@@ -91,7 +97,7 @@ nav {
 .cuerpoindex .imagenlocal h2 {
   padding: 20px;
   text-align: center;
-  font-size: 25px;
+  font-size: 22px;
   color: wheat;
   background-color: #9e2a2b;
   font-style: italic;
@@ -127,7 +133,7 @@ nav {
 }
 .cuerpoindex .video .video__texto--2 h3 {
   padding: 5px;
-  font-size: 25px;
+  font-size: 22px;
   padding-right: 20px;
 }
 .cuerpoindex .video .video__texto--2 h3 p {
@@ -164,7 +170,7 @@ nav {
   color: grey;
 }
 .cuerpoindex .sucursales h2 {
-  font-size: 25px;
+  font-size: 22px;
   padding: 10px;
   text-align: left;
   color: #bc6c25;
@@ -200,7 +206,7 @@ nav {
   grid-area: section5;
 }
 .cuerpoindex .protocolo h2 {
-  font-size: 25px;
+  font-size: 22px;
   color: #9e2a2b;
 }
 .cuerpoindex .protocolo .protocolo__2 {
@@ -264,7 +270,7 @@ nav {
   text-align: center;
 }
 .cuerpomenu .menu h2 {
-  font-size: 25px;
+  font-size: 22px;
 }
 .cuerpomenu .menu li {
   font-size: 14px;
@@ -331,7 +337,7 @@ nav {
 }
 .trabajaconnosotros h2 {
   text-align: center;
-  font-size: 25px;
+  font-size: 22px;
 }
 .trabajaconnosotros p {
   text-align: center;
@@ -366,7 +372,7 @@ nav {
 .nuestrapropuesta .nuestrapropuesta__mision h2 {
   border-bottom: double wheat 5px;
   padding-bottom: 10px;
-  font-size: 25px;
+  font-size: 22px;
 }
 .nuestrapropuesta .nuestrapropuesta__mision p {
   padding-left: 10px;
@@ -379,7 +385,7 @@ nav {
   padding: 20px;
 }
 .nuestrapropuesta .nuestrapropuesta__ofrecer h2 {
-  font-size: 25px;
+  font-size: 22px;
   border-bottom: double wheat 10px;
   padding-bottom: 10px;
 }
@@ -397,7 +403,7 @@ nav {
   padding: 20px;
 }
 .nuestrapropuesta .nuestrapropuesta__imagenesempleados h2 {
-  font-size: 25px;
+  font-size: 22px;
   border-right: double wheat 10px;
   padding-right: 10px;
 }
@@ -450,7 +456,7 @@ nav {
   padding: 25px;
 }
 .cuerpoescuela .fondoteensenamos h2 {
-  font-size: 25px;
+  font-size: 22px;
   color: wheat;
 }
 .cuerpoescuela .fondoteensenamos p {
@@ -483,7 +489,7 @@ nav {
   align-items: center;
 }
 .cuerpoescuela .infocurso .infocurso__texto1 h2 {
-  font-size: 25px;
+  font-size: 22px;
 }
 .cuerpoescuela .infocurso .infocurso__texto2 {
   padding-bottom: 30px;
@@ -496,7 +502,7 @@ nav {
 .cuerpoescuela .infocurso .infocurso__texto2 h3 {
   border-right: grey dotted;
   padding-right: 10px;
-  font-size: 25px;
+  font-size: 22px;
 }
 .cuerpoescuela .infocurso .infocurso__texto2 p {
   padding-left: 10px;
@@ -512,7 +518,7 @@ nav {
   margin: auto;
 }
 .cuerpoescuela .infocurso .infocurso__texto3 h3 {
-  font-size: 25px;
+  font-size: 22px;
 }
 .cuerpoescuela .infocurso .infocurso__texto3 p {
   border-left: grey dotted;
@@ -527,7 +533,7 @@ nav {
   align-items: center;
 }
 .cuerpoescuela .infocurso .infocurso__texto4 h2 {
-  font-size: 25px;
+  font-size: 22px;
 }
 .cuerpoescuela .infocurso .infocurso__texto5 {
   padding: 20px;
@@ -608,7 +614,7 @@ nav {
 }
 .producto h2 {
   text-align: center;
-  font-size: 25px;
+  font-size: 22px;
   padding: 10px;
   color: wheat;
   font-weight: bold;
@@ -680,7 +686,7 @@ footer .foter {
 }
 footer .foter .foter__textos {
   text-align: center;
-  font-size: 25px;
+  font-size: 22px;
   padding: 10px;
 }
 footer p {
@@ -725,7 +731,7 @@ footer .foter3 .foter3__redes img {
   text-align: center;
 }
 .contenido .contenido__h2 {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: bold;
   color: #6f1d1b;
 }
@@ -813,7 +819,7 @@ footer .foter3 .foter3__redes img {
 }
 @media (max-width: 768px) {
   nav a {
-    font-size: 10px;
+    font-size: 8px;
     padding-top: 5px;
   }
 
@@ -845,6 +851,10 @@ footer .foter3 .foter3__redes img {
     height: 100;
   }
 
+  .cuerpoindex .video .video__texto {
+    padding-top: 20px;
+  }
+
   footer .foter {
     flex-direction: column;
     align-items: center;
@@ -861,13 +871,10 @@ footer .foter3 .foter3__redes img {
   }
 
   .trabajaconnosotros form {
-    text-align: left;
+    text-align: center;
     width: 100%;
     margin: auto;
-    border: none;
-  }
-  .trabajaconnosotros form input {
-    overflow: inherit;
+    padding: 10px;
   }
 
   .nuestrapropuesta .nuestrapropuesta__mision {
@@ -970,6 +977,6 @@ footer .foter3 .foter3__redes img {
   }
 
   nav a {
-    font-size: 25px;
+    font-size: 22px;
   }
 }

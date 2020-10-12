@@ -6,12 +6,12 @@
 }
 a:hover {
   text-decoration: none;
-  color: wheat; 
+  color: black;
   }
 a {
     text-decoration: none;
-    color: black;
-    font-weight: 700;
+    color: wheat;
+    font-size: 18px;
     animation-name: link;
   }
 li {
@@ -20,10 +20,16 @@ li {
     display: inline-block;
   }
 nav {
+  position: fixed;
+  width: 100%;
+  background-image: url(../imagenes/granitos.jpg);
+  background-position: bottom;
+  background-size: cover;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
+  align-content: center;
   animation-duration: 5s;
   animation-name: aparecer;
   }

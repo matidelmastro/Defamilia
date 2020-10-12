@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
    nav {
     a {
-      font-size: 10px;
+      font-size: 8px;
       padding-top: 5px;
     }
    }
@@ -27,6 +27,9 @@
         height: 100;
       }
     }
+    .cuerpoindex .video .video__texto {
+      padding-top: 20px;
+    }
     footer .foter {
       flex-direction: column;
       align-items: center;
@@ -40,13 +43,10 @@
       background-position: top;
     }
     .trabajaconnosotros form {
-      text-align: left;
+      text-align: center;
       width: 100%;
       margin: auto;
-      border: none;
-      input {
-       overflow: inherit;
-      }
+      padding: 10px;
     }
     .nuestrapropuesta .nuestrapropuesta__mision {
       flex-direction: column;
