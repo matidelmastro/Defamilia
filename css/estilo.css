@@ -820,7 +820,6 @@ footer .foter3 .foter3__redes img {
 @media (max-width: 768px) {
   nav a {
     font-size: 8px;
-    padding-top: 5px;
   }
 
   .modal {
@@ -828,10 +827,6 @@ footer .foter3 .foter3__redes img {
   }
 
   #cerrar + label {
-    display: none;
-  }
-
-  .whatsapp {
     display: none;
   }
 
