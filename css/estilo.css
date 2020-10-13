@@ -12,8 +12,8 @@ a:hover {
 
 a {
   text-decoration: none;
-  color: wheat;
-  font-size: 18px;
+  color: white;
+  font-size: 16px;
   animation-name: link;
 }
 
@@ -25,6 +25,7 @@ li {
 
 nav {
   position: fixed;
+  z-index: 5;
   width: 100%;
   background-image: url(../imagenes/granitos.jpg);
   background-position: bottom;
@@ -348,13 +349,19 @@ nav {
   width: 50%;
   margin: auto;
   padding: 20px;
-  text-align: left;
+  text-align: center;
   align-content: center;
   border: ridge 10px grey;
   border-radius: 5%;
 }
+.trabajaconnosotros form div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
 .trabajaconnosotros form label {
-  padding-right: 5px;
+  padding: 5px;
 }
 
 .nuestrapropuesta {
@@ -469,6 +476,12 @@ nav {
   border: double wheat 5px;
   padding: 5px;
   color: wheat;
+}
+.cuerpoescuela .fondoteensenamos form div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 .cuerpoescuela .fondoteensenamos form label {
   padding: 5px;
@@ -629,6 +642,9 @@ nav {
   align-items: center;
   padding: 20px;
 }
+.productos a {
+  color: black;
+}
 .productos .productos__imagenes {
   text-align: center;
   margin: 10px;
@@ -709,7 +725,7 @@ footer .foter3 .foter3__redes img {
   width: 100%;
   height: 100vh;
   background: rgba(0, 0, 0, 0.8);
-  z-index: 4;
+  z-index: 6;
   position: fixed;
   top: 0;
   left: 0;
@@ -794,7 +810,7 @@ footer .foter3 .foter3__redes img {
   position: fixed;
   color: #fff;
   font-size: 30px;
-  z-index: 50;
+  z-index: 7;
   height: 40px;
   width: 40px;
   line-height: 40px;
@@ -819,7 +835,7 @@ footer .foter3 .foter3__redes img {
 }
 @media (max-width: 768px) {
   nav a {
-    font-size: 8px;
+    font-size: 9px;
   }
 
   .modal {
@@ -861,6 +877,11 @@ footer .foter3 .foter3__redes img {
     margin-left: 30px;
   }
 
+  #imagenbotoncorredor {
+    width: 40px;
+    height: 40px;
+  }
+
   .cabeza3 {
     background-position: top;
   }
@@ -898,6 +919,7 @@ footer .foter3 .foter3__redes img {
   }
   .nuestrapropuesta .nuestrapropuesta__imagenesempleados h2 {
     border-bottom: double wheat 5px;
+    border-right: none;
   }
 
   .cuerpoescuela .cabeza4 {

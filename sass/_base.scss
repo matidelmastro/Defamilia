@@ -10,8 +10,8 @@ a:hover {
   }
 a {
     text-decoration: none;
-    color: wheat;
-    font-size: 18px;
+    color: white;
+    font-size: 16px;
     animation-name: link;
   }
 li {
@@ -21,6 +21,7 @@ li {
   }
 nav {
   position: fixed;
+  z-index: 5;
   width: 100%;
   background-image: url(../imagenes/granitos.jpg);
   background-position: bottom;

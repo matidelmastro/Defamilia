@@ -25,13 +25,18 @@
           width: 50%;
           margin: auto;
           padding: 20px;
-          text-align: left;
+          text-align: center;
           align-content: center;
           border: ridge 10px grey;
           border-radius: 5%;
-
+          div {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+          }
           label {
-              padding-right: 5px;
+              padding: 5px;
           }
       }
   }
