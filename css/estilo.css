@@ -882,6 +882,10 @@ footer .foter3 .foter3__redes img {
     height: 40px;
   }
 
+  .cabeza1 {
+    background-position: left;
+  }
+
   .cabeza3 {
     background-position: top;
   }
