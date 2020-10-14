@@ -61,7 +61,7 @@ nav {
   grid-area: header;
   background-image: url(../imagenes/portada.jpg);
   background-size: cover;
-  background-position: top;
+  background-position: center;
   min-height: 100vh;
 }
 .cuerpoindex .sobrenosotros {
@@ -253,7 +253,7 @@ nav {
   -ms-grid-column-span: 3;
   background-image: url(../imagenes/menu.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: top;
   min-height: 100vh;
   grid-area: header;
 }
@@ -298,7 +298,7 @@ nav {
   -ms-grid-column-span: 3;
   text-align: center;
   grid-area: sectionn2;
-  background: #a5a58d;
+  background: #9e2a2b;
   padding: 35px;
 }
 .cuerpomenu .carrusel .carrusel__h2 {
@@ -615,7 +615,7 @@ nav {
 }
 
 .cabeza5 {
-  background-image: url(../imagenes/reserva.jpg);
+  background-image: url(../imagenes/productos.jpg);
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -976,7 +976,7 @@ footer .foter3 .foter3__redes img {
     flex-direction: column;
   }
 }
-@media (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .cuerpoindex .protocolo .protocolo__2 {
     flex-wrap: none;
     justify-content: space-between;
@@ -989,8 +989,8 @@ footer .foter3 .foter3__redes img {
   }
 
   footer .foter3 .foter3__redes img {
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
   }
 
   nav a {
