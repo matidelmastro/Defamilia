@@ -17,7 +17,7 @@
           font-size: $tamañotitulo;
       }
       p {
-          text-align: center;
+          text-align: justify;
           font-size: $tamañoparrafo;
           padding: 20px;
       }
@@ -59,6 +59,7 @@
         p{
             padding-left: 10px;
             font-size: $tamañoparrafo;
+            text-align: justify;
             
         }
       }

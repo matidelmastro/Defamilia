@@ -80,6 +80,7 @@ nav {
   font-size: 14px;
   border-left: solid 5px gray;
   padding-left: 10px;
+  text-align: justify;
 }
 .cuerpoindex .sobrenosotros h2 {
   font-size: 22px;
@@ -138,7 +139,7 @@ nav {
   padding-right: 20px;
 }
 .cuerpoindex .video .video__texto--2 h3 p {
-  text-align: left;
+  text-align: justify;
   font-size: 14px;
 }
 .cuerpoindex .video .video__texto--2 #defamilia {
@@ -341,7 +342,7 @@ nav {
   font-size: 22px;
 }
 .trabajaconnosotros p {
-  text-align: center;
+  text-align: justify;
   font-size: 14px;
   padding: 20px;
 }
@@ -384,6 +385,7 @@ nav {
 .nuestrapropuesta .nuestrapropuesta__mision p {
   padding-left: 10px;
   font-size: 14px;
+  text-align: justify;
 }
 .nuestrapropuesta .nuestrapropuesta__ofrecer {
   display: flex;
@@ -469,6 +471,7 @@ nav {
 .cuerpoescuela .fondoteensenamos p {
   font-size: 14px;
   color: wheat;
+  text-align: justify;
 }
 .cuerpoescuela .fondoteensenamos form {
   width: 50%;

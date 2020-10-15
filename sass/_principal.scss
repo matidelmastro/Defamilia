@@ -31,6 +31,7 @@ grid-template-areas:
         font-size: $tamañoparrafo;
         border-left: solid 5px gray;
         padding-left: 10px;
+        text-align: justify;
     }
 
     h2 {
@@ -84,7 +85,7 @@ grid-template-areas:
             font-size: $tamañotitulo;
             padding-right: 20px;
         p {
-            text-align: left;
+            text-align: justify;
             font-size: $tamañoparrafo;
         }
     }
