@@ -160,11 +160,12 @@ h2 {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
+    align-content: center;
     align-items: center;
     padding: 15px;
     .protocolo__2--destacado {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center; 
     padding: 5px;   
     img {
@@ -174,7 +175,7 @@ h2 {
     }
     p {
     font-size: $tamañoparrafo;
-    color: #583101;
+    color: #9e2a2b;
     font-weight: bold;
     }
     }    

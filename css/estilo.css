@@ -216,12 +216,13 @@ nav {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
+  align-content: center;
   align-items: center;
   padding: 15px;
 }
 .cuerpoindex .protocolo .protocolo__2 .protocolo__2--destacado {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding: 5px;
 }
@@ -231,7 +232,7 @@ nav {
 }
 .cuerpoindex .protocolo .protocolo__2 .protocolo__2--destacado p {
   font-size: 14px;
-  color: #583101;
+  color: #9e2a2b;
   font-weight: bold;
 }
 .cuerpoindex footer {
