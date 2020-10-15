@@ -27,8 +27,8 @@ nav {
   position: fixed;
   z-index: 5;
   width: 100%;
-  background-image: url(../imagenes/granitos.jpg);
-  background-position: bottom;
+  background-image: url(../imagenes/granos2.jpg);
+  background-position: center;
   background-size: cover;
   display: flex;
   flex-direction: row;
