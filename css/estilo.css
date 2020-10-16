@@ -218,13 +218,13 @@ nav {
   justify-content: space-evenly;
   align-content: center;
   align-items: center;
-  padding: 15px;
+  padding: 15px 0;
 }
 .cuerpoindex .protocolo .protocolo__2 .protocolo__2--destacado {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 5px;
+  padding: 5px 0;
 }
 .cuerpoindex .protocolo .protocolo__2 .protocolo__2--destacado img {
   border-radius: 50%;
@@ -837,6 +837,35 @@ footer .foter3 .foter3__redes img {
     opacity: 2;
   }
 }
+@media (min-width: 320px) and (max-width: 568px) {
+  nav a {
+    font-size: 7px;
+  }
+  nav img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .cuerpoindex .sobrenosotros p {
+    text-align: left;
+  }
+
+  .trabajaconnosotros p {
+    text-align: center;
+  }
+
+  .nuestrapropuesta .nuestrapropuesta__mision p {
+    text-align: center;
+  }
+
+  .cuerpoescuela .infocurso .infocurso__texto6 h1 a {
+    font-size: 12px;
+  }
+
+  .foter img {
+    width: 200px;
+  }
+}
 @media (max-width: 768px) {
   nav a {
     font-size: 9px;
@@ -984,24 +1013,62 @@ footer .foter3 .foter3__redes img {
     flex-direction: column;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+  .modal {
+    display: none;
+  }
+
+  .cuerpoindex .cabeza1 {
+    background-position: left;
+  }
+
+  .cuerpoindex .video {
+    flex-direction: row;
+  }
+  .cuerpoindex .video p {
+    padding: 10px 10px;
+  }
+
   .cuerpoindex .protocolo .protocolo__2 {
     flex-wrap: none;
     justify-content: space-between;
   }
 
+  .productos {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
   footer .foter {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     align-content: center;
   }
 
   footer .foter3 .foter3__redes img {
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-right: 100px;
+    margin-left: 100px;
   }
 
   nav a {
-    font-size: 22px;
+    font-size: 20px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .cuerpoindex .cabeza1 {
+    background-position: left;
+  }
+
+  .cuerpoindex .video {
+    padding: 50px;
+  }
+
+  .cuerpoindex .protocolo .protocolo__2 {
+    justify-content: space-evenly;
+  }
+
+  footer .foter3 .foter3__redes img {
+    margin-right: 150px;
+    margin-left: 150px;
   }
 }
