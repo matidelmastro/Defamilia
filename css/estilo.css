@@ -47,6 +47,10 @@ nav {
     opacity: 1;
   }
 }
+#teesperamos {
+  font-weight: bolder;
+}
+
 .cuerpoindex {
   display: grid;
   height: 100vh;
